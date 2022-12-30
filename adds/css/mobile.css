@@ -20,16 +20,16 @@
 }
 #login{
 	font-size: 30px;
-	background-color: #2d9129;
+	background-color: WHITE;
 	color: #d40000;
-	border-color: black;
+	border-color: transparent;
 	border-radius: 5px;
 	cursor: pointer;
 	width: 267px;
 	transition-duration: 0.4s;
 }
 #login:hover{
-	background-color: black;
+	background-color: red;
 	color: white;
 }
 #center{
@@ -44,7 +44,7 @@
 	height: auto;
 	color: yellow;
 	font-family: klavika;
-	font-size: 45px;
+	font-size: auto;
 	text-align: center;
 }
 #lp{
