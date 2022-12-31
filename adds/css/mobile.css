@@ -1,3 +1,6 @@
+#note{
+	color: gray;
+}
 body{
 	background-color: #ebedeb;
 }
@@ -18,6 +21,8 @@ body{
 }
 #input{
 	border-color: black;
+	border-width: 1px;
+	border-radius: 5px;
 	background-color: #ebedeb;
 }
 #login{
@@ -29,10 +34,12 @@ body{
 	cursor: pointer;
 	width: 267px;
 	transition-duration: 0.4s;
+	border-width: 1px;
 }
 #login:hover{
 	background-color: red;
 	color: white;
+	border-color: transparent;
 }
 #center{
 	width: 100%;
@@ -150,6 +157,7 @@ body{
 #ctp{
 	border-radius: 30px;
 	background-color: white;
+	box-shadow: 5px -5px 5px 2px #d6d6d4, -5px -5px 5px 2px #d6d6d4, 0 5px 5px 2px #d6d6d4;
 }
 #image1{
 	width:100%;
@@ -160,7 +168,7 @@ body{
 }
 
 #phead{
-	font-size: 30px;
+	font-size: 100%;
 }
 #prof{
 	text-align: center;
@@ -179,4 +187,7 @@ body{
 }
 #lpb{
 	padding-left: 30%;
+}
+#t2h{
+	text-align: left;
 }

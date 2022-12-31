@@ -1,38 +1,45 @@
+#note{
+	color: gray;
+}
 body{
 	background-color: #ebedeb;
 }
 #body{
-	background-color: black;
+	background-color: #ebedeb;
 }
 #head1{
 	text-align: center;
-	color: #e0dc09;
+	color: black;
 	font-family: klavika;
-	font-size: 40px;
+	font-size: 30px;
 }
 #form1{
 	text-align: center;
-	color: white;
+	color: black;
 	font-family: Calibri;
 	font-size: 18px;
 }
 #input{
-	border-color: red;
-	background-color: #e8e3e3;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 5px;
+	background-color: #ebedeb;
 }
 #login{
 	font-size: 30px;
-	background-color: WHITE;
-	color: #d40000;
-	border-color: transparent;
+	background-color: #ebedeb;
+	color: login;
+	border-color: black;
 	border-radius: 5px;
 	cursor: pointer;
 	width: 267px;
 	transition-duration: 0.4s;
+	border-width: 1px;
 }
 #login:hover{
 	background-color: red;
 	color: white;
+	border-color: transparent;
 }
 #center{
 	width: 1366px;
