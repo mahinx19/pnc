@@ -1,4 +1,6 @@
-
+body{
+	background-color: #ebedeb;
+}
 #body{
 	background-color: black;
 }
@@ -39,10 +41,10 @@
 }
 #tp{
 	float:left;
-	background-color: BLACK;
+	background-color: #ebedeb;
 	width: 100%;
 	height: auto;
-	color: yellow;
+	color: black;
 	font-family: klavika;
 	font-size: auto;
 	text-align: center;
@@ -92,16 +94,16 @@
 #ct{
 	width: 100%;
 	height: auto;
-	border-radius: 30px;
+	border-radius: 30px 30px 0 0;
 	background-color: white;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	box-shadow: 5px -5px 5px 2px #d6d6d4, -5px -5px 5px 2px #d6d6d4;
 	background-color: white;
 	padding: 30px;
 }
 #ct2{
 	width: 100%;
 	height: auto;
-	border-radius: 30px;
+
 
 }
 #link1{
@@ -118,6 +120,7 @@
 	background-color: white;
 	transition-duration: 1s;
 	cursor: pointer;
+	box-shadow: -5px 5px 5px 0 #d6d6d4;
 }
 #pb:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);background-color: #136cd1;color: white;}
@@ -130,6 +133,7 @@
 	background-color: white;
 	transition-duration: 1s;
 	cursor: pointer;
+	box-shadow: 0 5px 5px 0 #d6d6d4;
 }
 #pb1:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);background-color:#e9f518;color: black;}
 #pb1:active{transform: translateY(4px);}
@@ -141,6 +145,7 @@
 	background-color: white;
 	transition-duration: 1s;
 	cursor: pointer;
+	box-shadow: 5px 5px 5px 0 #d6d6d4;
 }
 #pb2:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);background-color:#74f518;color: black;}
 #pb2:active{transform: translateY(4px);}

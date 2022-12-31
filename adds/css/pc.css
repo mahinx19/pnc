@@ -1,4 +1,6 @@
-
+body{
+	background-color: #ebedeb;
+}
 #body{
 	background-color: black;
 }
@@ -38,10 +40,10 @@
 }
 #tp{
 	float:left;
-	background-color: BLACK;
+	background-color: #ebedeb;
 	width: 1331px;
 	height: 52px;
-	color: yellow;
+	color: black;
 	font-family: klavika;
 	font-size: 45px;
 	text-align: center;
@@ -52,8 +54,7 @@
 	height: 550px;
 	float: left;
 	font-size: 50px;
-	border-right-style: groove;
-	border-right-width: 2px;
+
 }
 #cp{
 
@@ -66,8 +67,7 @@
 	width: 298px;
 	height: 550px;
 
-	border-left-style: groove;
-	border-left-width: 2px;
+
 }
 #lp,#cp,#rp{
 	float:left;
@@ -89,17 +89,18 @@
 }
 #bfs:hover {background-color: #d6d6d6;}
 #ct{
-	width: 661px;
+	width: 643px;
 	height: 170px;
-	border-radius: 30px;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 30px 30px 0 0;
+	box-shadow: 5px -5px 5px 2px #d6d6d4, -5px -5px 5px 2px #d6d6d4;
 	background-color: white;
 	padding: 30px;
 }
 #ct2{
-	width: 651px;
+	width: 660px;
 	height: 34px;
 	border-radius: 30px;
+	
 
 }
 #link1{
@@ -109,36 +110,39 @@
 	font-family: inherit;
 }
 #pb{
-	width: 200px;
+	width: 206px;
 	height: 34px;
 	border-radius: 0 0 0 30px;
 	border-color: transparent;
 	background-color: white;
 	transition-duration: 1s;
 	cursor: pointer;
+	box-shadow: -5px 5px 5px 0 #d6d6d4;
 }
 #pb:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);background-color: #136cd1;color: white;}
 #pb:active{transform: translateY(4px);}
 #pb1{
-	width: 200px;
+	width: 206px;
 	height: 34px;
 	border-radius: 0 0 0 0;
 	border-color: transparent;
 	background-color: white;
 	transition-duration: 1s;
 	cursor: pointer;
+	box-shadow: 0 5px 5px 0 #d6d6d4;
 }
 #pb1:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);background-color:#e9f518;color: black;}
 #pb1:active{transform: translateY(4px);}
 #pb2{
-	width: 200px;
+	width: 206px;
 	height: 34px;
 	border-radius: 0 0 30px 0;
 	border-color: transparent;
 	background-color: white;
 	transition-duration: 1s;
 	cursor: pointer;
+	box-shadow: 5px 5px 5px 0 #d6d6d4;
 }
 #pb2:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);background-color:#74f518;color: black;}
 #pb2:active{transform: translateY(4px);}
@@ -147,6 +151,7 @@
 	height: 420px;
 	border-radius: 30px;
 	background-color: white;
+	box-shadow: 5px -5px 5px 2px #d6d6d4, -5px -5px 5px 2px #d6d6d4, 0 5px 5px 2px #d6d6d4;
 }
 #image1{
 	width:200px;
