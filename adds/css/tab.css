@@ -52,8 +52,7 @@ body{
 	width: 238px;
 	height: 550px;
 	font-size: 50px;
-	border-right-width: 2px;
-	border-right-style: groove;
+
 }
 #cp{
 	background-color: #f0f0f0;
@@ -64,8 +63,7 @@ body{
 	background-color: #f0f0f0;
 	width: 238px;
 	height: 550px;
-	border-left-width: 2px;
-	border-left-style: groove;
+
 }
 #lp,#cp,#rp{
 	float:left;

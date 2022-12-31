@@ -2,29 +2,29 @@ body{
 	background-color: #ebedeb;
 }
 #body{
-	background-color: black;
+	background-color: #ebedeb;
 }
 #head1{
 	text-align: center;
-	color: #e0dc09;
+	color: black;
 	font-family: klavika;
 	font-size: 30px;
 }
 #form1{
 	text-align: center;
-	color: white;
+	color: black;
 	font-family: Calibri;
 	font-size: 18px;
 }
 #input{
-	border-color: red;
-	background-color: #e8e3e3;
+	border-color: black;
+	background-color: #ebedeb;
 }
 #login{
 	font-size: 30px;
-	background-color: WHITE;
-	color: #d40000;
-	border-color: transparent;
+	background-color: #ebedeb;
+	color: login;
+	border-color: black;
 	border-radius: 5px;
 	cursor: pointer;
 	width: 267px;
@@ -55,8 +55,7 @@ body{
 	height: auto;
 
 	font-size: 50px;
-	border-bottom-style: groove;
-	border-bottom-width: 2px;
+
 }
 #cp{
 
@@ -69,8 +68,7 @@ body{
 	width: 100%;
 	height: auto;
 
-	border-top-style: groove;
-	border-top-width: 2px;
+
 }
 #lp,#cp,#rp{
 	float:left;
@@ -78,7 +76,7 @@ body{
 }
 #bfs{
 	font-size: 15px;
-	text-align: center;
+
 	width: 295px;
 	height: 40px;
 	background-color: #ebedeb;
@@ -160,9 +158,7 @@ body{
 	border-radius: 100%;
 	
 }
-#t2h{
-	text-align: left;
-}
+
 #phead{
 	font-size: 30px;
 }
@@ -180,4 +176,7 @@ body{
 	height: auto;
 	border: 3px solid transparent;
 	border-radius: 0px;
+}
+#lpb{
+	padding-left: 30%;
 }
